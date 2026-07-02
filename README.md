@@ -133,22 +133,6 @@ Every solution includes:
 
 ---
 
-# 📅 Commit Convention
-
-Examples:
-
-```
-Day 1: Added Pattern Problems 1-10
-
-Day 2: Added Basic Maths Problems
-
-Day 3: Completed Sorting Algorithms
-
-Day 7: Arrays Easy - 10 Problems
-```
-
----
-
 # 🎯 Goals
 
 - Complete Striver's A2Z DSA Sheet
