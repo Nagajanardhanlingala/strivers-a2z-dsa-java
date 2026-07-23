@@ -60,21 +60,21 @@ Strivers-A2Z-Java/
 ## 01. Basics
 
 - [x] Patterns
-- [ ] Basic Maths
-- [ ] Recursion
-- [ ] Hashing
+- [x ] Basic Maths
+- [x ] Recursion
+- [x ] Hashing
 
 ## 02. Sorting
 
-- [ ] Bubble Sort
-- [ ] Selection Sort
-- [ ] Insertion Sort
+- [x ] Bubble Sort
+- [x ] Selection Sort
+- [x ] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
 
 ## 03. Arrays
 
-- [ ] Easy
+- [x ] Easy
 - [ ] Medium
 - [ ] Hard
 

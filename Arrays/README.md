@@ -11,11 +11,16 @@ Rather than memorizing solutions, the goal is to understand the reasoning behind
 ## Problems Solved
 
 | No. | Problem | Pattern | Difficulty |
-| :-- | :------ | :------ | :--------: |
+|:---:|---------|---------|:----------:|
 | 01 | Largest Element in an Array | Linear Traversal | Easy |
 | 02 | Second Largest Element | Linear Traversal | Easy |
 | 03 | Check if Array is Sorted | Linear Traversal | Easy |
 | 04 | Remove Duplicates from Sorted Array | Two Pointers | Easy |
+| 05 | Left Rotate Array by One Place | Array Manipulation | Easy |
+| 06 | Left Rotate Array by D Places | Array Reversal | Medium |
+| 07 | Right Rotate Array by D Places | Array Reversal | Medium |
+| 08 | Move Zeroes to End | Two Pointers | Easy |
+| 09 | Union of Two Sorted Arrays | Two Pointers / Merge | Medium |
 
 ---
 
@@ -42,17 +47,7 @@ Rather than memorizing solutions, the goal is to understand the reasoning behind
 
 ## Progress
 
-- ✅ 4 / 13 Easy Array Problems Completed
-
-Upcoming Topics:
-- Left Rotate Array by One Place
-- Rotate Array by D Places
-- Move Zeroes
-- Linear Search
-- Union of Two Sorted Arrays
-- Missing Number
-- Maximum Consecutive Ones
-- Find the Number that Appears Once
+- ✅ 9 / 13 Easy Array Problems Completed
 
 ---
 
