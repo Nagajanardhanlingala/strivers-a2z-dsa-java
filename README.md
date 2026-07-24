@@ -55,26 +55,23 @@ Strivers-A2Z-Java/
 
 ---
 
-# 📈 Progress Tracker
+## 📈 Progress Tracker
 
-## 01. Basics
-
+### 01. Basics
 - [x] Patterns
-- [x ] Basic Maths
-- [x ] Recursion
-- [x ] Hashing
+- [x] Basic Maths
+- [x] Recursion
+- [x] Hashing
 
-## 02. Sorting
-
-- [x ] Bubble Sort
-- [x ] Selection Sort
-- [x ] Insertion Sort
+### 02. Sorting
+- [x] Bubble Sort
+- [x] Selection Sort
+- [x] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
 
-## 03. Arrays
-
-- [x ] Easy
+### 03. Arrays
+- [x] Easy (9/18)
 - [ ] Medium
 - [ ] Hard
 
