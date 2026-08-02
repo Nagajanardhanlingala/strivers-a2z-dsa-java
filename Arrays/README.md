@@ -1,88 +1,120 @@
 # 📚 Arrays
 
-> The **Arrays** module marks the beginning of my Data Structures & Algorithms journey using **Striver's A2Z DSA Sheet**.
+> The **Arrays** module is the foundation of my Data Structures & Algorithms journey using **Striver's A2Z DSA Sheet**.
 
-This repository documents my progress in mastering array-based interview problems using **Java**. The focus is on understanding problem-solving patterns, optimizing brute-force approaches, and writing clean, interview-ready solutions rather than memorizing code.
+This repository documents my progress in mastering array-based interview problems using **Java**. The emphasis is on understanding patterns, deriving optimal solutions from brute-force approaches, and writing clean, interview-ready code rather than memorizing algorithms.
 
 ---
 
-## 🎯 Learning Objectives
+# 🎯 Learning Objectives
 
 - Master array traversal and in-place manipulation
-- Develop intuition for common interview patterns
+- Recognize common interview patterns
 - Optimize brute-force solutions into efficient algorithms
-- Improve analytical thinking and coding skills
+- Strengthen analytical and problem-solving skills
 - Write clean, readable, and scalable Java solutions
 
 ---
 
-## ✅ Striver A2Z - Array Problems
+# ✅ Striver A2Z - Array Problems
 
-| No. | Problem | Pattern | Difficulty |
-|:--:|---------|----------|:----------:|
-| 01 | Largest Element in an Array | Linear Traversal | Easy |
-| 02 | Second Largest Element | Linear Traversal | Easy |
-| 03 | Check if Array is Sorted | Linear Traversal | Easy |
-| 04 | Remove Duplicates from Sorted Array | Two Pointers | Easy |
-| 05 | Left Rotate Array by One Place | Array Manipulation | Easy |
-| 06 | Left Rotate Array by D Places | Array Reversal | Medium |
-| 07 | Right Rotate Array by D Places | Array Reversal | Medium |
-| 08 | Move Zeroes to End | Two Pointers | Easy |
-| 09 | Union of Two Sorted Arrays | Two Pointers / Merge | Medium |
-| 10 | Missing Number | Math / XOR | Easy |
-| 11 | Maximum Consecutive Ones | Linear Traversal | Easy |
-| 12 | Find the Number that Appears Once | XOR | Easy |
-| 13 | Longest Subarray with Sum K (Positive Numbers) | Sliding Window | Easy |
+## 🟢 Easy
 
----
-
-## ⭐ Bonus Practice
-
-These problems are **not part of the official Striver A2Z Sheet** but are excellent interview questions that reinforce important patterns.
-
-| No. | Problem | Pattern | Difficulty |
-|:--:|---------|----------|:----------:|
-| B01 | Maximum Product of Three Numbers (LeetCode 628) | Tracking 3 Maximums & 2 Minimums | Easy |
+| No. | Problem | Pattern |
+|:--:|---------|---------|
+| 01 | Largest Element in an Array | Linear Traversal |
+| 02 | Second Largest Element | Linear Traversal |
+| 03 | Check if Array is Sorted | Linear Traversal |
+| 04 | Remove Duplicates from Sorted Array | Two Pointers |
+| 05 | Left Rotate Array by One Place | Array Manipulation |
+| 06 | Left Rotate Array by D Places | Reversal Algorithm |
+| 07 | Right Rotate Array by D Places | Reversal Algorithm |
+| 08 | Move Zeroes to End | Two Pointers |
+| 09 | Union of Two Sorted Arrays | Merge / Two Pointers |
+| 10 | Missing Number | XOR / Math |
+| 11 | Maximum Consecutive Ones | Linear Traversal |
+| 12 | Find the Number that Appears Once | XOR |
+| 13 | Longest Subarray with Sum K (Positive Numbers) | Sliding Window |
 
 ---
 
-## 🧠 Patterns Learned
+## 🟡 Medium
+
+| No. | Problem | Pattern |
+|:--:|---------|---------|
+| 01 | Two Sum | HashMap |
+| 02 | Sort Colors | Dutch National Flag Algorithm |
+| 03 | Majority Element | Moore's Voting Algorithm |
+| 04 | Maximum Subarray Sum | Kadane's Algorithm |
+| 05 | Best Time to Buy and Sell Stock | Prefix Minimum |
+| 06 | Rearrange Array Elements by Sign | Two Arrays / In-place Thinking |
+| 07 | Next Permutation | Simulation |
+| 08 | Leaders in an Array | Reverse Traversal |
+| 09 | Longest Consecutive Sequence | HashSet |
+| 10 | Set Matrix Zeroes | Matrix Traversal |
+| 11 | Rotate Matrix by 90° | Transpose + Reverse |
+| 12 | Spiral Matrix | Boundary Traversal |
+| 13 | Count Subarrays with Sum = K | Prefix Sum + HashMap |
+
+---
+
+# ⭐ Bonus Practice
+
+Problems solved outside the Striver A2Z Sheet to strengthen interview preparation.
+
+| No. | Problem | Pattern |
+|:--:|---------|---------|
+| B01 | Maximum Product of Three Numbers (LeetCode 628) | Tracking Three Maximums & Two Minimums |
+| B02 | Maximum Product of Two Elements in an Array (LeetCode 1464) | Tracking Largest & Second Largest |
+
+---
+
+# 🧠 Patterns Learned
 
 - Linear Traversal
-- Two Pointer Technique
-- Sliding Window (Basics)
+- Two Pointers
+- Sliding Window
+- Prefix Sum
+- HashMap
+- HashSet
 - XOR
 - Array Reversal Algorithm
-- In-place Array Manipulation
-- Maintaining Multiple Variables
-- Tracking Maximum & Minimum Values
-- Prefix Thinking (Introduction)
+- In-place Matrix Manipulation
+- Matrix Traversal
+- Boundary Traversal
+- Dutch National Flag Algorithm
+- Moore's Voting Algorithm
+- Kadane's Algorithm
+- Prefix Minimum Technique
+- Simulation
+- Reverse Traversal
 
 ---
 
-## 📖 Key Takeaways
+# 📖 Key Takeaways
 
-- Always begin with a brute-force solution before optimizing.
-- Constraints often reveal the intended optimal approach.
-- Many array problems can be solved in a single traversal (`O(n)`).
-- The Two Pointer technique is one of the most frequently used interview patterns.
-- XOR provides elegant constant-space solutions for several array problems.
-- Maintaining a few important values is often more efficient than sorting the entire array.
-- Clean, readable code is just as important as arriving at the correct algorithm.
+- Start with a brute-force solution before optimizing.
+- Constraints often hint at the intended approach.
+- Hashing can reduce many `O(n²)` problems to `O(n)`.
+- Prefix Sum is a powerful technique for subarray problems.
+- Sliding Window works only when the window property changes monotonically (typically with non-negative elements).
+- Matrix problems often become simpler by identifying traversal patterns or boundary conditions.
+- Interviewers value reasoning and pattern recognition more than memorized code.
 
 ---
 
-## 📊 Progress
+# 📊 Progress
 
 | Category | Status |
 |----------|--------|
-| Striver Array Easy | ✅ 13 / 13 Completed |
-| Bonus Problems | ⭐ 1 Completed |
-| Next Goal | 🚀 Array Medium |
+| Array Easy | ✅ Completed |
+| Array Medium | ✅ Completed |
+| Array Hard | ⏳ Next |
+| Bonus Problems | ⭐ 2 Completed |
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - **Language:** Java
 - **IDE:** IntelliJ IDEA / VS Code
@@ -91,20 +123,24 @@ These problems are **not part of the official Striver A2Z Sheet** but are excell
 
 ---
 
-## 🎯 Repository Goal
+# 🎯 Repository Goal
 
 This repository serves as a public record of my DSA preparation journey toward becoming a Software Development Engineer.
 
-Each solution emphasizes:
+Each solution focuses on:
 
-- Correctness
-- Optimal Time & Space Complexity
-- Clean Java Implementation
-- Interview-Oriented Problem Solving
-- Pattern Recognition over Memorization
+- ✅ Correctness
+- ✅ Optimal Time & Space Complexity
+- ✅ Clean Java Implementation
+- ✅ Interview-Oriented Problem Solving
+- ✅ Pattern Recognition over Memorization
 
 ---
 
-### ⭐ Next Milestone
+# 🚀 Next Milestone
 
-➡️ Complete **Striver Array Medium** while continuing to solve additional interview problems beyond the A2Z sheet.
+- Complete **Array Hard**
+- Finish **Sorting**
+- Begin **Binary Search**
+- Continue solving **LeetCode Daily Challenges**
+- Maintain consistent interview-focused DSA practice
