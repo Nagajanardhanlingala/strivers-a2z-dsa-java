@@ -2,7 +2,7 @@
 
 > The **Arrays** module is the foundation of my Data Structures & Algorithms journey using **Striver's A2Z DSA Sheet**.
 
-This repository documents my progress in mastering array-based interview problems using **Java**. The emphasis is on understanding patterns, deriving optimal solutions from brute-force approaches, and writing clean, interview-ready code rather than memorizing algorithms.
+This repository documents my progress in mastering array-based interview problems using **Java**. The focus is on understanding problem-solving patterns, deriving optimal solutions from brute-force approaches, and writing clean, interview-ready solutions rather than memorizing algorithms.
 
 ---
 
@@ -14,12 +14,13 @@ This repository documents my progress in mastering array-based interview problem
 - Strengthen analytical and problem-solving skills
 - Write clean, readable, and scalable Java solutions
 - Develop the ability to identify the correct pattern from problem constraints
+- Understand important Java implementation details related to DSA
 
 ---
 
 # ✅ Striver A2Z - Array Problems
 
-## 🟢 Easy
+## 🟢 Easy — Completed
 
 | No. | Problem                                        | Pattern              |
 | :-: | ---------------------------------------------- | -------------------- |
@@ -39,7 +40,7 @@ This repository documents my progress in mastering array-based interview problem
 
 ---
 
-## 🟡 Medium
+## 🟡 Medium — Completed
 
 | No. | Problem                          | Pattern                        |
 | :-: | -------------------------------- | ------------------------------ |
@@ -59,17 +60,21 @@ This repository documents my progress in mastering array-based interview problem
 
 ---
 
-## 🔴 Hard
+## 🔴 Hard — Completed
 
-| No. | Problem                        | Pattern                             | Status |
-| :-: | ------------------------------ | ----------------------------------- | :----: |
-|  01 | Pascal's Triangle              | Simulation / Combinatorics          |   ✅   |
-|  02 | Majority Element II            | Moore's Voting Algorithm            |   ✅   |
-|  03 | 3Sum                           | Sorting + Two Pointers              |   ✅   |
-|  04 | 4Sum                           | Sorting + Two Pointers              |   ✅   |
-|  05 | Largest Subarray with 0 Sum    | Prefix Sum + HashMap                |   ✅   |
-|  06 | Count Subarrays with XOR K     | Prefix XOR + HashMap                |   ✅   |
-|  07 | Merge Overlapping Subintervals | Sorting + Greedy / Interval Merging |   ✅   |
+| No. | Problem                        | Pattern                                      |
+| :-: | ------------------------------ | -------------------------------------------- |
+|  01 | Pascal's Triangle              | Simulation / Combinatorics                   |
+|  02 | Majority Element II            | Moore's Voting Algorithm                     |
+|  03 | 3Sum                           | Sorting + Two Pointers                       |
+|  04 | 4Sum                           | Sorting + Two Pointers                       |
+|  05 | Largest Subarray with 0 Sum    | Prefix Sum + HashMap                         |
+|  06 | Count Subarrays with XOR K     | Prefix XOR + HashMap                         |
+|  07 | Merge Overlapping Subintervals | Sorting + Greedy / Interval Merging          |
+|  08 | Merge Two Sorted Arrays        | Gap Method                                   |
+|  09 | Count Inversions               | Merge Sort + Divide and Conquer              |
+|  10 | Reverse Pairs                  | Merge Sort + Two Pointers                    |
+|  11 | Maximum Product Subarray       | Dynamic Programming / State Tracking         |
 
 ---
 
@@ -90,38 +95,34 @@ Problems solved outside the Striver A2Z Sheet to strengthen interview preparatio
 
 - Linear Traversal
 - Two Pointers
-- Array Manipulation
-- Array Reversal Algorithm
 - In-place Manipulation
+- Array Rotation
+- Reversal Algorithm
 
-### Searching & Optimization
+### Hashing & Prefix Techniques
 
-- Sliding Window
-- Prefix Sum
-- Prefix XOR
 - HashMap
 - HashSet
+- Prefix Sum
+- Prefix XOR
+- Sliding Window
 
-### Sorting & Rearrangement
+### Sorting & Searching Techniques
 
 - Dutch National Flag Algorithm
 - Sorting + Two Pointers
 - Sorting + Greedy
-- Interval Merging
-
-### Mathematical / Bit Manipulation
-
-- XOR
-- Moore's Voting Algorithm
-- Combinatorics
+- Merge Sort
+- Divide and Conquer
+- Gap Method
 
 ### Subarray Techniques
 
-- Prefix Sum for subarray sums
+- Kadane's Algorithm
 - Prefix Sum + HashMap
 - Prefix XOR + HashMap
-- Sliding Window for positive-number subarrays
-- Kadane's Algorithm
+- Sliding Window
+- Maximum / Minimum State Tracking
 
 ### Matrix Techniques
 
@@ -130,27 +131,35 @@ Problems solved outside the Striver A2Z Sheet to strengthen interview preparatio
 - Transpose + Reverse
 - In-place Matrix Manipulation
 
-### Other Techniques
+### Mathematical & Bit Manipulation
 
-- Prefix Minimum
-- Reverse Traversal
-- Simulation
+- XOR
+- Moore's Voting Algorithm
+- Combinatorics
+
+### Advanced Array Patterns
+
+- Inversion Counting
+- Reverse Pair Counting
+- Interval Merging
+- Dynamic Programming / State Tracking
 
 ---
 
 # 📖 Key Takeaways
 
 - Start with a brute-force solution before optimizing.
-- Constraints often provide clues about the expected time complexity.
-- Hashing can reduce many `O(n²)` problems to `O(n)`.
-- Prefix Sum is a powerful technique for subarray problems.
-- Prefix XOR combined with a HashMap can efficiently solve XOR-based subarray problems.
-- Sliding Window works when the window property changes monotonically, typically with non-negative elements.
-- Sorting can simplify problems involving duplicates, two pointers, and intervals.
-- Interval problems often become easier after sorting by the starting point.
-- Matrix problems become simpler when the traversal pattern or boundary conditions are clearly identified.
-- Always consider integer overflow when calculating sums of multiple array elements.
-- Interviewers value reasoning, pattern recognition, and complexity analysis more than memorized code.
+- Use constraints to identify the expected time complexity.
+- Hashing can reduce many `O(N²)` solutions to `O(N)`.
+- Prefix Sum and Prefix XOR are powerful techniques for subarray problems.
+- Sliding Window is useful when the window property can be maintained efficiently.
+- Sorting often simplifies problems involving duplicates, intervals, and two pointers.
+- Merge Sort can be used as a problem-solving technique for counting relationships between elements.
+- When dealing with products, negative values may require tracking both maximum and minimum states.
+- Always consider integer overflow when working with large sums or products.
+- Focus on understanding patterns and deriving solutions rather than memorizing code.
+- Analyze time and space complexity for every solution.
+- Understand important Java implementation details when they are relevant to solving DSA problems.
 
 ---
 
@@ -160,16 +169,18 @@ Problems solved outside the Striver A2Z Sheet to strengthen interview preparatio
 | -------------- | ------------- |
 | Array Easy     | ✅ Completed   |
 | Array Medium   | ✅ Completed   |
-| Array Hard     | 🔄 In Progress |
+| Array Hard     | ✅ Completed   |
 | Bonus Problems | ⭐ 2 Completed |
 
 ### Current Progress
 
-**Striver Arrays:**
+**Striver A2Z Arrays:**
 
 🟢 Easy → ✅ Complete  
 🟡 Medium → ✅ Complete  
-🔴 Hard → 🔄 7 Problems Completed
+🔴 Hard → ✅ Complete
+
+> 🎉 **The complete Striver A2Z Arrays section is now finished.**
 
 ---
 
@@ -185,24 +196,16 @@ Problems solved outside the Striver A2Z Sheet to strengthen interview preparatio
 
 # 🎯 Repository Goal
 
-This repository serves as a public record of my DSA preparation journey toward becoming a Software Development Engineer.
+This repository is a record of my DSA preparation journey toward becoming a Software Development Engineer.
 
-Each solution focuses on:
+The goal is not simply to complete problems, but to develop the ability to:
 
-- ✅ Correctness
-- ✅ Optimal Time & Space Complexity
-- ✅ Clean Java Implementation
-- ✅ Interview-Oriented Problem Solving
-- ✅ Pattern Recognition over Memorization
-- ✅ Understanding the reasoning behind every solution
+- Understand the problem and constraints
+- Derive brute-force solutions
+- Identify patterns
+- Optimize solutions
+- Analyze time and space complexity
+- Write clean and efficient Java code
+- Explain solutions confidently in technical interviews
 
 ---
-
-# 🚀 Next Milestone
-
-- Continue and complete the remaining **Array Hard** problems
-- Finish **Sorting Algorithms**
-- Continue solving **one random LeetCode problem daily**
-- Begin **Binary Search** after completing the current Array milestone
-- Continue building strong problem-solving patterns for product-based company interviews
-- Maintain regular mock interviews after completing major DSA sections
