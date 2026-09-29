@@ -1,34 +1,60 @@
-````markdown
-# Striver's Problem of the Day (POTD)
+# Striver's Problem of the Day
 
-This folder contains solutions to **Striver's Problem of the Day (POTD)** problems solved as part of my DSA preparation.
+A collection of **Striver's Problem of the Day (POTD)** solutions implemented in **Java**, focused on consistent problem-solving practice, pattern recognition, and strengthening DSA fundamentals.
 
-Unlike the topic-wise **Striver A2Z DSA Sheet**, POTD problems can come from different DSA topics and are maintained separately for consistent daily problem-solving practice.
+> **One problem. One concept. One step forward every day.**
 
-## Goals
+---
 
-- Maintain a consistent daily DSA problem-solving streak.
-- Practice problems across different DSA topics.
-- Improve problem-solving and pattern-recognition skills.
-- Strengthen concepts through regular revision.
-- Implement solutions in Java.
+## 🎯 Purpose
 
-## File Naming Convention
+The POTD collection is maintained separately from the topic-wise **Striver A2Z DSA Sheet** to practice problems across different DSA concepts without being restricted to the current topic being studied.
 
-POTD files follow the format:
+This helps build the ability to:
+
+* Understand unfamiliar problems quickly
+* Identify underlying DSA patterns
+* Strengthen problem-solving skills
+* Practice implementation in Java
+* Maintain consistent daily DSA practice
+
+---
+
+## 📂 Repository Structure
+
+```text
+Strivers-POTD/
+│
+├── 290926_OrArray.java
+├── ...
+└── README.md
+```
+
+Each problem is stored as an individual Java file using the date-based naming convention.
+
+### File Naming Convention
 
 ```text
 DDMMYY_ProblemName.java
-````
+```
 
-## Topics Covered
+Example:
 
-POTD problems may cover topics such as:
+```text
+290926_OrArray.java
+```
+
+---
+
+## 🧠 Topics
+
+POTD problems may span across multiple DSA concepts, including:
 
 * Arrays
 * Strings
 * Hashing
 * Recursion
+* Sorting
 * Binary Search
 * Bit Manipulation
 * Linked Lists
@@ -36,22 +62,42 @@ POTD problems may cover topics such as:
 * Trees
 * Graphs
 * Dynamic Programming
-* Other DSA concepts
+* Greedy Algorithms
+* Other Problem-Solving Patterns
 
-## Approach
+---
 
-For each POTD problem, I focus on:
+## ⚙️ Problem-Solving Approach
 
-1. Understanding the problem
-2. Identifying the core concept
-3. Deriving the solution
-4. Implementing the solution in Java
-5. Analyzing Time and Space Complexity
-6. Recording important concepts and observations
+For each problem, the focus is on:
 
-> POTD practice is maintained separately from the topic-wise Striver A2Z DSA Sheet to keep the repository organized while allowing practice across different concepts.
+**Understand → Derive → Implement → Analyze → Improve**
 
-```
+1. Understand the problem and constraints
+2. Identify the underlying concept or pattern
+3. Derive the solution step by step
+4. Implement the solution in Java
+5. Analyze Time & Space Complexity
+6. Record important observations and concepts
+7. Revisit difficult problems for stronger understanding
 
-This version is more concise and works well as a folder-level README.
-```
+---
+
+## 💻 Language
+
+**Java**
+
+Solutions are written with a focus on clean implementation, readability, and understanding of the underlying DSA concepts.
+
+---
+
+## 🔗 Related Repository
+
+This folder is part of my broader **Striver A2Z DSA preparation**, where problems are organized separately by topic.
+
+**A2Z DSA:** Topic-wise structured learning
+**POTD:** Daily cross-topic problem-solving practice
+
+---
+
+> **Consistency over intensity. Keep solving, keep learning.**
